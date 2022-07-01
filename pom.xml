@@ -17,9 +17,8 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>sudarsana-reddy</name>
-            <url>https://maven.pkg.github.com/sudarsana-reddy/maven-parent-pom</url>
+            <id>github</id>          
+            <url>https://maven.pkg.github.com/sudarsana-reddy/sud-maven-packages</url>
         </repository>
     </distributionManagement>
 
