@@ -18,20 +18,14 @@
      <distributionManagement>
         <repository>
             <id>github</id>          
-            <url>https://maven.pkg.github.com/sudarsana-reddy/sud-maven-packages</url>
+            <url>https://maven.pkg.github.com/sudarsana-reddy/maven-parent-pom</url>
         </repository>
         <snapshotRepository>
             <id>githuB</id>          
-            <url>https://maven.pkg.github.com/sudarsana-reddy/sud-maven-packages</url>
+            <url>https://maven.pkg.github.com/sudarsana-reddy/maven-parent-pom</url>
         </snapshotRepository>
-    </distributionManagement>
-         
-     <repositories>
-        <repository>
-           <id>github</id>         
-           <url>https://maven.pkg.github.com/sudarsana-reddy/sud-maven-packages</url>
-        </repository>
-    </repositories>
+    </distributionManagement>        
+   
 
     <build>
         <plugins>
