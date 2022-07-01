@@ -15,12 +15,23 @@
         <testSuite>smoke.xml</testSuite>
     </properties>
 
-    <distributionManagement>
+     <distributionManagement>
         <repository>
             <id>github</id>          
             <url>https://maven.pkg.github.com/sudarsana-reddy/sud-maven-packages</url>
         </repository>
+        <snapshotRepository>
+            <id>githuB</id>          
+            <url>https://maven.pkg.github.com/sudarsana-reddy/sud-maven-packages</url>
+        </snapshotRepository>
     </distributionManagement>
+         
+     <repositories>
+        <repository>
+           <id>github</id>         
+           <url>https://maven.pkg.github.com/sudarsana-reddy/sud-maven-packages</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
