@@ -15,13 +15,27 @@
         <testSuite>smoke.xml</testSuite>
     </properties>
 
-    <distributionManagement>
-        <repository>
+    <profiles>
+        <profile>
+            <id>aws</id>
+            <distributionManagement>
+                <repository>
+                    <id>aws</id>
+                    <url>file:///E:/shared/</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+        <profile>
             <id>github</id>
-            <name>GitHub sudarsana-reddy Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/sudarsana-reddy/maven-parent-pom</url>
-        </repository>
-    </distributionManagement>
+            <distributionManagement>
+                <repository>
+                    <id>github</id>
+<!--                    <url>https://maven.pkg.github.com/sudarsana-reddy/maven-parent-pom</url>-->
+                    <url>file:///D:/shared/</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+    </profiles>
 
     <build>
         <plugins>
